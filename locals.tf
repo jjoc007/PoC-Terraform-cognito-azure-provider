@@ -1,0 +1,43 @@
+locals {
+    COGNITO_READ_ATTRIBUTES = [
+    "given_name",
+    "email_verified",
+    "zoneinfo",
+    "email",
+    "website",
+    "preferred_username",
+    "name",
+    "locale",
+    "phone_number",
+    "family_name",
+    "birthdate",
+    "middle_name",
+    "phone_number_verified",
+    "profile",
+    "picture",
+    "address",
+    "gender",
+    "updated_at",
+    "nickname",
+  ]
+
+COGNITO_WRITE_ATTRIBUTES = [
+    "given_name",
+    "zoneinfo",
+    "website",
+    "preferred_username",
+    "name",
+    "locale",
+    "phone_number",
+    "family_name",
+    "birthdate",
+    "middle_name",
+    "profile",
+    "picture",
+    "address",
+    "gender",
+    "updated_at",
+    "nickname",
+    "email",
+  ]
+}
